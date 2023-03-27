@@ -9,8 +9,9 @@ function identity2(val: any): any {
   return val;
 }
 
-function identity3<Type>(val: Type): Type {
+function identity3<t>(val: t): t {
   return val;
 }
 
 identity3<number[]>([3]);
+ 
